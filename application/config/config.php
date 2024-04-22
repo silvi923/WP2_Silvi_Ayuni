@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/pustaka-booking/';
 
 /*
 |--------------------------------------------------------------------------
@@ -87,10 +87,9 @@ $config['language']	= 'english';
 |
 | This determines which character set is used by default in various methods
 | that require a character set to be provided.
-|
-| See http://php.net/htmlspecialchars for a list of supported charsets.
-|
+|See http://php.net/htmlspecialchars for a list of supported charsets.
 */
+$autoload['helper']= array('url');
 $config['charset'] = 'UTF-8';
 
 /*
